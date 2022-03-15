@@ -11,10 +11,10 @@ int i;
 
 for (i = 48; i <= 57; i++)
 {
-printf("%d", i);
+putchar ("%d", i);
 }
 
-printf("\n");
+putchar ("\n");
 
 return (0);
 }
