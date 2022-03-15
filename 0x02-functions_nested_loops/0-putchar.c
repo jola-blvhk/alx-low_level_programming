@@ -15,7 +15,7 @@ int main(void)
 	return(0);
 }
 
-void print_putchar(void);
+void print_putchar(void)
 {
 	_putchar('_');
 	_putchar('p');
