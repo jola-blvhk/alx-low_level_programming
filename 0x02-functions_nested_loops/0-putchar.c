@@ -1,23 +1,13 @@
 #include "main.h"
 
+
 /**
- * main - prints_putchar
+ * main - Entry point
  *
- * Description: print_putchar
- *
- * Return 0 (success)
+ * Return: always 0
  */
 
-void print_putchar(void);
-
 int main(void)
-{
-	print_putchar();
-	return (0);
-
-}
-
-void print_putchar(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -29,4 +19,5 @@ void print_putchar(void)
 	_putchar('r');
 	_putchar('\n');
 
+	return (0);
 }
