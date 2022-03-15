@@ -1,9 +1,9 @@
 #include "main.h"
 
-/** 
+/**
  * main - prints_putchar
  *
- * Description: prints _putchar
+ * Description: print_putchar
  *
  * Return 0 (success)
  */
@@ -13,7 +13,7 @@ void print_putchar(void);
 int main(void)
 {
 	print_putchar();
-	return(0);
+	return (0);
 
 }
 
