@@ -33,17 +33,11 @@ void more_numbers(void)
 			_putchar (second_number + '0');
 
 			result++;
-
 		}
-
 		i++;
-
 		result = 0;
-
 		_putchar ('\n');
 
 	}
-
-
 
 }
