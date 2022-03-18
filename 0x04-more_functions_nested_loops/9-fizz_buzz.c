@@ -35,9 +35,7 @@ int main(void)
 		else
 		{
 			printf("%i ", i);
-	
 		}
-
 		i++;
 
 	}
